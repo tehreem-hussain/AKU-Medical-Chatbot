@@ -1,0 +1,58 @@
+INFO:root:Loaded 773 PDF pages from data/.
+INFO:root:Created 7180 text chunks.
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: mps
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:root:Embedding model loaded successfully.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:root:FAISS vector store saved to vectorstore/db_faiss.
+ERROR:root:Model mistralai/Mistral-7B-Instruct-v0.3 unavailable: Model mistralai/Mistral-7B-Instruct-v0.3 is not supported for task text-generation and provider novita. Supported task: conversational.
+ERROR:root:Failed to create QA chain: Model mistralai/Mistral-7B-Instruct-v0.3 is not available: Model mistralai/Mistral-7B-Instruct-v0.3 is not supported for task text-generation and provider novita. Supported task: conversational.
+ERROR:root:Model mistralai/Mistral-7B-Instruct-v0.3 unavailable: Model mistralai/Mistral-7B-Instruct-v0.3 is not supported for task text-generation and provider novita. Supported task: conversational.
+ERROR:root:Failed to create QA chain: Model mistralai/Mistral-7B-Instruct-v0.3 is not available: Model mistralai/Mistral-7B-Instruct-v0.3 is not supported for task text-generation and provider novita. Supported task: conversational.
+INFO:root:Loaded 773 PDF pages from data/.
+INFO:root:Created 7180 text chunks.
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: mps
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:root:Embedding model loaded successfully.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:root:FAISS vector store saved to vectorstore/db_faiss.
+ERROR:root:Model mistralai/Mistral-7B-Instruct-v0.3 unavailable: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/models/mistralai/Mistral-7B-Instruct-v0.3 (Request ID: Root=1-689f04c3-70f7aacf48800eed14f1b2b6;ecc16dd1-5871-4ffb-87fc-2a094ecafcdb)
+ERROR:root:Failed to create QA chain: Model mistralai/Mistral-7B-Instruct-v0.3 is not available: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/models/mistralai/Mistral-7B-Instruct-v0.3 (Request ID: Root=1-689f04c3-70f7aacf48800eed14f1b2b6;ecc16dd1-5871-4ffb-87fc-2a094ecafcdb)
+INFO:root:Loaded 773 PDF pages from data/.
+INFO:root:Created 7180 text chunks.
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: mps
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:root:Embedding model loaded successfully.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:root:FAISS vector store saved to vectorstore/db_faiss.
+ERROR:root:Model meta-llama/Llama-3.1-8B-Instruct unavailable: 'InferenceClient' object has no attribute 'conversational'
+ERROR:root:Failed to create QA chain: Model meta-llama/Llama-3.1-8B-Instruct is not available: 'InferenceClient' object has no attribute 'conversational'
+ERROR:root:Model mistralai/Mistral-7B-Instruct-v0.3 unavailable: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/models/mistralai/Mistral-7B-Instruct-v0.3 (Request ID: Root=1-689f085f-19c60ac6207115e32b513bfb;83fe1a03-7e13-4fd0-ab88-c7bad3d26475)
+ERROR:root:Failed to create QA chain: Model mistralai/Mistral-7B-Instruct-v0.3 is not available: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/models/mistralai/Mistral-7B-Instruct-v0.3 (Request ID: Root=1-689f085f-19c60ac6207115e32b513bfb;83fe1a03-7e13-4fd0-ab88-c7bad3d26475)
+INFO:root:Loaded 773 PDF pages from data/.
+INFO:root:Created 7180 text chunks.
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: mps
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:root:Embedding model loaded successfully.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:root:FAISS vector store saved to vectorstore/db_faiss.
+ERROR:root:Model openai-community/gpt2 unavailable: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/models/openai-community/gpt2 (Request ID: Root=1-689f0a63-221c84076c218a652a74b376;68fbdc29-6763-456f-acb3-387ff201952e)
+ERROR:root:Failed to create QA chain: Model openai-community/gpt2 is not available: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/models/openai-community/gpt2 (Request ID: Root=1-689f0a63-221c84076c218a652a74b376;68fbdc29-6763-456f-acb3-387ff201952e)
+INFO:root:Loaded 773 PDF pages from data/.
+INFO:root:Created 7180 text chunks.
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: mps
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:root:Embedding model loaded successfully.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:root:FAISS vector store saved to vectorstore/db_faiss.
+ERROR:root:Model google/gemma-2b-it unavailable: 
+ERROR:root:Failed to create QA chain: Model google/gemma-2b-it is not available: . Try 'distilgpt2' or check https://huggingface.co/inference-endpoints.
+ERROR:root:Model distilgpt2 unavailable: 
+ERROR:root:Failed to create QA chain: Model distilgpt2 is not available: . Try 'gpt2' or check https://huggingface.co/inference-endpoints.
+ERROR:root:Model distilgpt2 unavailable: 
+ERROR:root:Query: hi, Error: Model distilgpt2 is not available: . Try 'gpt2' or check https://huggingface.co/inference-endpoints.
