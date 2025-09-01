@@ -15,6 +15,10 @@ On Windows:
 
 .\venv\Scripts\activate
 
+.\venv\Scripts\pip.exe install -r requirements.txt
+
+
+
 Step 4: Install Dependencies
 With the virtual environment active, use pipenv to install all the required libraries from your Pipfile.lock.
 
@@ -26,3 +30,9 @@ Step 5: Run the Application
 Now that all dependencies are installed, you can start your Streamlit application.
 
 streamlit run medibot.py
+
+
+
+Docker Setup
+ pip freeze > requirements.txt
+docker build -t medibot .

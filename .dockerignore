@@ -1,0 +1,10 @@
+__pycache__/
+.venv/
+Pipfile
+Pipfile.lock
+.env
+data/
+vectorstore/
+*.log
+.git/
+.DS_Store
