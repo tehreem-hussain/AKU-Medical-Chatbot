@@ -60,7 +60,7 @@ def main():
         """
 
         HUGGINGFACE_REPO_ID = "meta-llama/Llama-3.1-8B"
-        HF_TOKEN = os.environ.get("HF_TOKEN")
+        HF_TOKEN = "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"
 
         try:
             vectorstore = get_vectorstore()
